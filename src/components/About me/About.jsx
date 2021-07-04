@@ -34,7 +34,7 @@ const About = () => {
                 </div>
             </div>
 
-            <Footer phrase='Check out my' link='Projects' toAddress='/projects'/>
+            <Footer phrase='Check out my Projects' toAddress='/projects'/>
             {/* Vector Frame! */}
             <div className='vector-frame'>
                 <img src={aboutVector} className='about-vector' alt='about' />
