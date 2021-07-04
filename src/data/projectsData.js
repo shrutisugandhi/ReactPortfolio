@@ -17,15 +17,15 @@ export const projectsData = [
             'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
         projectUrl: 'http://theleanprogrammer.com/flashtype/',
     },
-    {
-        projectName: 'Flexbox Cheatsheet',
-        projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
-    },
+    // {
+    //     projectName: 'Flexbox Cheatsheet',
+    //     projectDescription:
+    //         'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
+    //     imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
+    //     videoUrl:
+    //         'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
+    //     projectUrl: 'http://theleanprogrammer.com/flex/',
+    // },
     {
         projectName: 'PokeDex',
         projectDescription:
@@ -33,7 +33,7 @@ export const projectsData = [
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
         videoUrl:
             'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
-        projectUrl: 'http://theleanprogrammer.com/pokedex/',
+        projectUrl: 'https://shrutisugandhi-pokemon-reactapp.netlify.app/',
     },
     {
         projectName: 'Portfolio Website',

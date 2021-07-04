@@ -10,14 +10,13 @@ const Skills = () => {
             <Header heading="My Skills"
             details="Passionate about new technologies, I keep exploring stuff. Here's the tech stack I've worked with!" />
 
-         <Footer phrase='Get in ' link='touch.' toAddress='/contact' />
             <div className="skill-card-container">
                 
               { 
                 skillList.map((skill) => {
                     return (
                         
-                        <div className="skill-card skill">
+                        <div key={skill.skillName} className="skill-card skill">
                             <img src={skill.skillUrl} alt="skill"></img>
                             <p>{skill.skillName}</p>
                         </div>
@@ -33,6 +32,8 @@ const Skills = () => {
                     className='skills-vector'
                 />
             </div>
+                     <Footer phrase='Get in touch.' toAddress='/contact' />
+
         </div>
     )
 }
